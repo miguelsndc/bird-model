@@ -1,0 +1,54 @@
+{
+    "runs": [
+        {
+            "target": "arara-azul.jpg",
+            "class_name": "arara_azul",
+            "confidence": 99.93582367897034
+        },
+        {
+            "target": "ararajuba.jpg",
+            "class_name": "ararajuba",
+            "confidence": 91.81439876556396
+        },
+        {
+            "target": "harpia.jpg",
+            "class_name": "harpia",
+            "confidence": 71.56213521957397
+        },
+        {
+            "target": "pica-pau.jpg",
+            "class_name": "harpia",
+            "confidence": 43.738093972206116
+        },
+        {
+            "target": "sabia-castanho.jpg",
+            "class_name": "sabia_castanho",
+            "confidence": 93.5206949710846
+        },
+        {
+            "target": "arara-azul.jpg",
+            "class_name": "arara_azul",
+            "confidence": 99.98847246170044
+        },
+        {
+            "target": "ararajuba.jpg",
+            "class_name": "ararajuba",
+            "confidence": 77.84255743026733
+        },
+        {
+            "target": "harpia.jpg",
+            "class_name": "harpia",
+            "confidence": 99.92960691452026
+        },
+        {
+            "target": "pica-pau.jpg",
+            "class_name": "harpia",
+            "confidence": 98.94250631332397
+        },
+        {
+            "target": "sabia-castanho.jpg",
+            "class_name": "sabia_castanho",
+            "confidence": 85.861337184906
+        }
+    ]
+}
