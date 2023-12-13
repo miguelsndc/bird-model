@@ -52,4 +52,9 @@ def generate_accuracy_report(target_path: str):
     return results
 
 results = generate_accuracy_report(path)
-storage.save({"results": results})
+metadata = {
+    "average_accuracy": statistics.mean([r["accuracy_average"] for r in results]),
+    "average_variance": statistics.mean([r["accuracy_variance"] for r in results]),
+    "average_deviation": statistics.mean([r["accuracy_deviation"] for r in results])
+}
+storage.save({"metadata": metadata, "results": results})
